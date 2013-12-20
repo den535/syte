@@ -1,0 +1,56 @@
+ body {
+    margin: 0; 
+	background: url(1.jpg);
+	background-repeat:no-repeat;/*неподвижный фон*/
+	background-attachment:fixed;
+	
+   }
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #f1f1f1; /* Цвет текста */
+   }
+   h3 {
+    font-size: 14px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #f1f1f1; /* Цвет текста */
+   }
+    h4 {
+    font-size: 14px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #fff000; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+   }
+   #header { /* Верхний блок */
+
+    background: #0080c0; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+   }
+   #sidebar { /* Левая колонка */
+	
+    float: left; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 10%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */
+   
+	background: #5b5656;
+   }
+   #content { /* Правая колонка */
+
+    margin: 10px 5px 20px 25%; /* Значения отступов */
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #333; /* Параметры рамки */
+   
+	background: #5b5656;
+   }
+   #footer { /* Нижний блок */
+	width:100%;
+    background: #333; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+	position:fixed;
+	bottom:0px;
+   }
