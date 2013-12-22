@@ -1,63 +1,139 @@
- body {
-    margin: 0; 
-	background: url(1.jpg);
-	background-repeat:no-repeat;/*неподвижный фон*/
-	background-attachment:fixed;
+п»ї/* Sonia Template */
+
+body {
+	
+}
+
+a {
+	text-decoration: none;
+	color: #2489DB;
+	
+}
+
+a:hover {
+	color: #808080;
+}
+
+a img {
+	border: 0;
+}
+
+h3 {
+	font-size: 1.3em;
+	margin: 0 0 5px 0;
+	padding: 2px 0px 0px 0px;
+}
+
+#bg { 
+	width: 760px;
+	margin: 0 auto;
+	padding: 5px 10px 10px 10px;
+	
+}
+
+
+#sadrzaj {
+	padding-top: 9px;
+	color: #636363;
+	width: 736px;
+	padding-left: 2px;
+
+}
+
+#head{
+float: left;
+
+
+}
+
+
+#zaglavlje {
+	clear: both;
+	margin: 0px 0 10px 0;
+	height: 120px;
+	 border: 1px solid #333;
+	
+}
+
+#title {
+	float: left;
+	font-size: 14pt;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-left: 50px;
+
+}
+
+#title_info {
+	float: right;
+	height: auto;
+	padding: 8px;
+	width: 210px;
+	margin: 25px 5px 0 0;
+	border: 2px solid #fff;	
+	background: #FFF5D9;
+	color: #808080;
+	 border: 1px solid #333;
+}
+
+#title_info p {
+	margin: 0;
+	
+
+}
+
+#navigacija {
+	clear: left;
+	float: left;
+	width: 150px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 0.9em;
+	 border: 1px solid #333;
 
 	
-   }
-   h1 {
-    font-size: 36px; /* Размер шрифта */
-    margin: 0; /* Убираем отступы */
-    color: #f1f1f1; /* Цвет текста */
-   }
-   h3 {
-    font-size: 14px; /* Размер шрифта */
-    margin: 0; /* Убираем отступы */
-    color: #f1f1f1; /* Цвет текста */
-   }
-    h4 {
-    font-size: 14px; /* Размер шрифта */
-    margin: 0; /* Убираем отступы */
-    color: #fff000; /* Цвет текста */
-   }
-   h2 {
-    margin-top: 0; /* Убираем отступ сверху */
-   }
-   #header { /* Верхний блок */
+}
+#navigacija p {
+	font-size: 12pt;
+	
 
-    background: #0080c0; /* Цвет фона */
-    padding: 10px; /* Поля вокруг текста */
-   }
-   #sidebar { /* Левая колонка */
+}
 
-    float: left; /* Обтекание справа */
-    border: 1px solid #333; /* Параметры рамки вокруг */
-     /* Ширина колонки */
-    padding: 5px; /* Поля вокруг текста */
-    margin: 10px 10px 20px 5px; /* Значения отступов */
-	background: #5b5656;
-	width:200px;
-   }
-   #content { /* Правая колонка */
-position: fixed; 
 
- height: 100%; 
- top: 60px; 
- left: 401px; 
- overflow: auto;
-    margin: 10px 5px 20px 25%; /* Значения отступов */
-    padding: 5px; /* Поля вокруг текста */
-    border: 1px solid #333; /* Параметры рамки */
-   width:600px;
-	background: #5b5656;
 
-   }
-   #footer { /* Нижний блок */
-	width:100%;
-    background: #333; /* Цвет фона */
-    padding: 5px; /* Поля вокруг текста */
-    color: #fff; /* Цвет текста */
-	position:fixed;
-	bottom:0px;
-   }
+
+#clanci {
+	margin:  0 0 5px 155px;
+	padding: 0 10px 5px 10px;
+	line-height: 1.4em;
+	 border: 1px solid #333;
+		
+	
+	
+
+}
+
+#floatleft{
+        clear: left;
+        float: left;
+        position: relative;
+        margin-right: 20px; /*РІРЅРµС€РЅРёР№ РѕС‚СЃС‚СѓРї*/
+        margin-top: 20px; /*РІРЅРµС€РЅРёР№ РѕС‚СЃС‚СѓРї*/
+        margin-bottom: 20px; /*РІРЅРµС€РЅРёР№ РѕС‚СЃС‚СѓРї*/
+        padding: 10px; /*РІРЅСѓС‚СЂРµРЅРЅРёР№ РѕС‚СЃС‚СѓРї*/
+        font-size: small;
+        text-align: center;
+        font-weight: bold;      
+}
+
+#clanci h2 {
+	margin: 0px;
+	padding: 4px 0 4px 0;
+	font-size: 12pt;
+	
+}
+
+#clanci p {
+	margin: 0;
+}
+

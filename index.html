@@ -1,32 +1,48 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Page</title>
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	
+<title>Сайт</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
- <body>
-  <div id="header"><h1>Сайт</h1></div>
-  <div id="sidebar">
-  
-
-   <p><a href="http://nigma.ru"> Nigma</a></p>
-<p><a href="#"> Чат</a></p>
-    <p><a href="#">Картинки</a></p>
-	<ul> 
-	<li><a> Контактная информация</a>
+<body>
+<div id="bg">
+  <div id="sadrzaj">
+    <div id="zaglavlje">
+	  
+	  
+	   
+        <div id="head"> <img width="150" height="120" alt="" src="123.jpg" /></div>
+		<div id="title"> <a href="#">Сайт</a> </div>
+		 
+        <div id="title_info">
+        <p><i>Контактная информация</i></p>
+		
+        <p><b>Адрес  :<a href="http://nigma.ru"> Nigma</a></b> </p>
+		<p><b>E-mail   :<a href="mailto:asdasd@asdasd.ru">  E-mail.ru</a></b> </p>
+      </div>
+    </div>
+    <div id="navigacija">
+      <ul>
+        <li><a href="#">Nigma</a></li>
+        <li><a href="#">Чат</a></li>
+        <li><a href="#">Картинки</a>
 		<ul>
-                   <li> Адрес  :<a href="http://google.ru">  Google </a> </li>
-					<li>E-mail   :<a href="mailto:asdasd@asdasd.ru">  E-mail.ru</a></li>
-                    
+                    <li><a href="#">1)</a></li>
+                    <li><a href="#">2)</a></li>
+                    <li><a href="#">3)</a></li>
                 </ul>  
         </li>
       </ul>
- </div>
-  <div id="content">
-    <h2>Дэнчик inc</h2>
-  <h4> absolute
+    </div>
+    <div id="clanci">
+	<p class='cite'><a href='#'>Home</a>     <img src='strelica2.gif' width='3px' height='5px' alt="" />   Дэнчик inc </p>
+      <h2><a href="">Дэнчик inc</a></h2>
+	  <div id="floatleft" style="width:170px">
+      <img width="200" height="150" src="123.jpg" alt="" />
+	  </div>
+
+      <p> absolute
  Указывает, что элемент абсолютно позиционирован, при этом другие элементы отображаются на веб-странице словно абсолютно позиционированного 
  элемента и нет. Положение элемента задается свойствами left, top, right и bottom, также на положение влияет значение свойства position
  родительского элемента. Так, если у родителя значение position установлено как static или родителя нет, то отсчет координат ведется от
@@ -35,15 +51,18 @@ fixed
  По своему действию это значение близко к absolute, но в отличие от него привязывается к указанной свойствами left, top, right и bottom
  точке на экране и не меняет своего положения при прокрутке веб-страницы. Браузер Firefox вообще не отображает полосы прокрутки, если
  положение элемента задано фиксированным, и оно не помещается целиком в окно браузера. В браузере Opera хотя и показываются полосы прокрутки, но они никак не влияют на позицию элемента.
-relative
-Положение элемента устанавливается относительно его исходного места. Добавление свойств left, top, right и bottom изменяет позицию элемента
- и сдвигает его в ту или иную сторону от первоначального расположения. 
-static
-Элементы отображаются как обычно. Использование свойств left, top, right и bottom не приводит к каким-либо результатам.
-inherit
-Наследует значение родителя.</h4>
+  Указывает, что элемент абсолютно позиционирован, при этом другие элементы отображаются на веб-странице словно абсолютно позиционированного 
+ элемента и нет. Положение элемента задается свойствами left, top, right и bottom, также на положение влияет значение свойства position
+ родительского элемента. Так, если у родителя значение position установлено как static или родителя нет, то отсчет координат ведется от
+ края окна браузера. Если у родителя значение position задано как fixed, relative или absolute, то отсчет координат ведется от края родительского элемента.
+fixed
+ По своему действию это значение близко к absolute, но в отличие от него привязывается к указанной свойствами left, top, right и bottom
+ точке на экране и не меняет своего положения при прокрутке веб-страницы. Браузер Firefox вообще не отображает полосы прокрутки, если
+ положение элемента задано фиксированным, и оно не помещается целиком в окно браузера. В браузере Opera хотя и показываются полосы прокрутки, но они никак не влияют на позицию элемента.
 
+</p>
+    </div>
   </div>
-  <div id="footer">&copy; Денчик</div>
- </body>
+</div>
+</body>
 </html>
